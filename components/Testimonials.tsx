@@ -64,7 +64,7 @@ export default function Testimonials() {
             animate={{ opacity: 1, x: 0, scale: 1 }}
             exit={{ opacity: 0, x: dir >= 0 ? -80 : 80, scale: 0.96 }}
             transition={{ type: "spring", stiffness: 260, damping: 30 }}
-            className="absolute inset-0 grid cursor-grab grid-cols-1 gap-6 rounded-3xl border border-line bg-surface p-8 active:cursor-grabbing sm:grid-cols-[1fr_auto] sm:items-center"
+            className="absolute inset-0 grid cursor-grab grid-cols-1 gap-6 rounded-3xl border border-line bg-surface p-8 active:cursor-grabbing sm:items-center"
             data-cursor="hover"
           >
             <div>
@@ -81,13 +81,6 @@ export default function Testimonials() {
                   <span className="block text-graphite">{testimonials[active].role}</span>
                 </span>
               </figcaption>
-            </div>
-            <div className="hidden h-full w-px bg-line sm:block" />
-            <div className="hidden flex-col items-center justify-center sm:flex">
-              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-graphite-2">Workflow</span>
-              <span className="mt-2 rounded-full border border-cyan/30 bg-cyan/10 px-3 py-1.5 font-mono text-xs text-cyan">
-                {testimonials[active].metric}
-              </span>
             </div>
           </motion.figure>
         </AnimatePresence>

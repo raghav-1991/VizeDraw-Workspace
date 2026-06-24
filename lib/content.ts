@@ -153,11 +153,11 @@ export const homeFaq = [
 
 // ---- Testimonials (representative personas, not real named endorsements) ----
 export const testimonials = [
-  { quote: "Revision tracking used to live in a spreadsheet and three peoples' heads. Now every sheet tells me which rev I am on before I mark anything up.", name: "Lead Estimator", role: "Regional general contractor", metric: "Rev B vs A" },
-  { quote: "Pin comments land on the exact grid location. Coordination meetings got shorter because nobody is hunting for what a note refers to.", name: "Project Engineer", role: "Design-build firm", metric: "On the sheet" },
-  { quote: "Calibrated takeoff profiles export straight to a schedule. The quantities respect scale and overrides, so the bid math just holds up.", name: "Preconstruction Manager", role: "Self-perform contractor", metric: "CSV export" },
-  { quote: "Supplier submittals come back through a controlled link. We review the versioned response against the source print without an email chain.", name: "Quality Lead", role: "Precision manufacturer", metric: "Vendor portal" },
-  { quote: "Drawing overlay with pixel diff caught a beam change before fabrication release. That one catch paid for the year.", name: "Structural Reviewer", role: "Steel fabricator", metric: "Pixel diff" },
+  { quote: "Revision tracking used to live in a spreadsheet and three peoples' heads. Now every sheet tells me which rev I am on before I mark anything up.", name: "Lead Estimator", role: "Regional general contractor" },
+  { quote: "Pin comments land on the exact grid location. Coordination meetings got shorter because nobody is hunting for what a note refers to.", name: "Project Engineer", role: "Design-build firm" },
+  { quote: "Calibrated takeoff profiles export straight to a schedule. The quantities respect scale and overrides, so the bid math just holds up.", name: "Preconstruction Manager", role: "Self-perform contractor" },
+  { quote: "Supplier submittals come back through a controlled link. We review the versioned response against the source print without an email chain.", name: "Quality Lead", role: "Precision manufacturer" },
+  { quote: "Drawing overlay with pixel diff caught a beam change before fabrication release. That one catch paid for the year.", name: "Structural Reviewer", role: "Steel fabricator" },
 ];
 
 // ---- Feature detail pages ----
